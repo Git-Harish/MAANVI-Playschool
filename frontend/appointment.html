@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Appointment - MAANVI Playschool</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+  <a class="navbar-brand fw-bold" href="index.html">MAANVI Playschool</a>
+  <div class="collapse navbar-collapse justify-content-end">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="policy.html">Policy</a></li>
+      <li class="nav-item"><a class="nav-link" href="terms.html">Terms</a></li>
+      <li class="nav-item"><a class="nav-link" href="calendar.html">Calendar</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      <li class="nav-item"><a class="nav-link active" href="appointment.html">Appointment</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h2>Book an Appointment</h2>
+  <form class="mt-4">
+    <div class="mb-3">
+      <label for="name" class="form-label">Your Name</label>
+      <input type="text" id="name" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone Number</label>
+      <input type="tel" id="phone" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="date" class="form-label">Preferred Date</label>
+      <input type="date" id="date" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="time" class="form-label">Preferred Time</label>
+      <input type="time" id="time" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="reason" class="form-label">Reason for Visit</label>
+      <textarea id="reason" rows="3" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Request Appointment</button>
+  </form>
+</div>
+
+<footer class="bg-light text-center p-3">
+  <p>Contact us: +91 98765 43210 | info@maanviplayschool.com</p>
+</footer>
+
+</body>
+</html>
